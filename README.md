@@ -5,33 +5,6 @@
 - steam
 - xbox
 
-## структура проекта
-
-```
-storm search/
-├── readme.md                 # этот файл
-├── linux/                    # версия для linux
-│   ├── csharp/               # c# реализация
-│   │   ├── program.cs        # основной файл
-│   │   ├── stormsearch.csproj # проект
-│   │   ├── storms.cs         # команда storms (стиль sherlock)
-│   │   ├── search/          # модули поиска
-│   │   │   ├── minecraft/   # поиск minecraft
-│   │   │   ├── steam/       # поиск steam
-│   │   │   └── xbox/        # поиск xbox
-│   │   └── utils/           # утилиты
-│   │       └── colors.cs    # цветной вывод
-│   └── js/                   # javascript реализация
-│       ├── index.js          # основной файл
-│       ├── storms.js         # команда storms (стиль sherlock)
-│       ├── package.json      # зависимости
-│       └── scrapers/        # веб скраперы
-│           ├── minecraft-scraper.js
-│           ├── steam-scraper.js
-│           └── xbox-scraper.js
-└── windows/                  # версия для windows
-    └── (аналогичная структура)
-```
 
 ## быстрый старт
 
