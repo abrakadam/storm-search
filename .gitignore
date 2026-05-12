@@ -1,0 +1,126 @@
+# binaries
+bin/
+obj/
+out/
+build/
+dist/
+
+# logs
+*.log
+logs/
+
+# runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# user specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+
+# test results
+test-results/
+*.test
+*.tests
+
+# temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# API keys and sensitive data
+api-keys.txt
+secrets.txt
+credentials.json
+
+# output files
+results.json
+*.results
+output/
+outputs/
+
+# build artifacts
+build/
+dist/
+target/
+
+# package files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# documentation build
+docs/_build/
+docs/build/
+
+# cache directories
+.cache/
+.parcel-cache/
+
+# local development
+.local/
+local/
